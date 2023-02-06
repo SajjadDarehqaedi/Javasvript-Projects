@@ -1,0 +1,22 @@
+
+#figure{
+    margin-top: 15%;
+}
+#mainImg{
+    height: 27rem;
+
+}
+#leftImg{
+    left: -7%;
+}
+
+#rightBt{
+    border: none;
+    padding: 0;
+    background: none;
+}
+#leftBt{
+    border: none;
+    padding: 0;
+    background: none;
+}

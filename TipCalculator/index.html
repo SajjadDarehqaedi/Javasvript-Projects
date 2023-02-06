@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <title>TipCalculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/*" href="images.jpg">
+</head>
+<body class="bg-dark">
+    <div class="container-fluid">
+        <div class="row justify-content-center mt-5">
+            <div class="col-4 border border-info p-0">
+                <div class="text-uppercase text-white text-center bg-primary p-3 rounded-3">
+                    <h3>tip calculator</h3>
+                </div>
+                <div id="box-dioalog" class="position-relative  justify-content-center">
+                    <div id="dioalog" class="position-absolute text-center rounded-3">
+                        <p id="warning-text" class="text-dark fs-3 fw-bold mt-5"></p>
+                    </div>
+                </div>
+                <form class="mt-5 ms-3 me-3">
+                    <span class="text-white fs-5 fw-italic mt-3 d-inline-block mb-3">how much was your bill ?</span>
+                    <div class="input-group">
+                        <label for="price" class="input-group-text bg-primary w-25 justify-content-center fs-5 fw-italic">$</label>
+                        <input type="number" class="form-control warning input p-3 fs-5 fw-italic" name="Bill" id="price">
+                    </div>
+                    <span class="text-white fs-5 fw-italic d-inline-block mt-3 mb-3">how many people sharing the bill ?</span>
+                    <div class="input-group">
+                        <label for="peopleNum" class="input-group-text bg-primary fs-5 w-25 fw-italic justify-content-center">%</label>
+                        <input type="number" class="form-control warning input p-3 fs-5 fw-italic" name="people" id="peopleNum">
+                    </div>
+                    <div>
+                       <span class="text-white fs-5 fw-italic d-inline-block mb-3 mt-3">how was your service</span>
+                       <select name="options"  class="form-select warning input rounded-3  p-3 fs-5 fw-italic" id="service">
+                        <option selected disabled value="Choose">Choose</option>
+                        <option value="2">Bad(-2%)</option>
+                        <option value="10">Good(10%)</option>
+                        <option value="20">exellent(20%)</option>
+                       </select>
+                    </div>
+                </form>
+                <div class="text-center mt-3 mb-2">
+                    <button id="calculate" class="btn btn-primary w-50 fs-5 fw-italic rounded-3" value="calculate">claculate</button>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div id="anim" class="loadingio-spinner-pulse-e3bra4c011l"><div class="ldio-s5q2e84i6h9">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div id="showResult">
+                    <p class="text-white fs-4 fw-italic">Total Amount: $ <span class="result fs-5"></span></p>
+                    <p class="text-white fs-4 fw-italic">Tip Amount: $ <span class="result fs-5"></spanresult></p>
+                    <p class="text-white fs-4 fw-italic">Each person owes: $ <span class="result fs-5"></span></p>
+                </div>   
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+</body>
+<script src="app.js"></script>
+</html>

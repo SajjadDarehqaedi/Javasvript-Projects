@@ -1,0 +1,26 @@
+#border{
+    text-align: -moz-center;
+}
+#figure{
+    margin-top: 15%;
+}
+#leftImg{
+    left: 8%;
+    top: 44%;
+    width: 5%;
+}
+#rightImg{
+    left: 86%;
+    top: 44%;
+    width: 5%;
+}
+#rightBt{
+    border: none;
+    padding: 0;
+    background: none;
+}
+#leftBt{
+    border: none;
+    padding: 0;
+    background: none;
+}

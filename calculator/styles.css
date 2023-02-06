@@ -1,0 +1,22 @@
+#box{
+    margin-left: 29.5%;
+    margin-top: 15%;
+    word-wrap: break-word;
+}
+.width{
+    width: 18.5% !important;
+}
+#bt-danger{
+    margin-left: 12%;
+    text-align: left !important;
+}
+#bt-danger-width{
+    width: 21%;
+}
+.btn:disabled, fieldset:disabled:hover{
+    cursor: not-allowed !important;
+    pointer-events:unset !important;
+}
+#showText{
+    height: 5rem;
+}

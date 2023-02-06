@@ -1,0 +1,76 @@
+/* Page styling - Centering div */
+
+body {
+    display: grid;
+  
+    place-items: center;
+  
+    min-height: 100vh;
+  
+    background: #d8f7ff;
+  
+    font-family: sans-serif;
+  }
+  
+  .container {
+    max-width: 300px;
+  
+    min-width: 200px;
+  
+    box-shadow: 0 0 40px rgb(0, 0, 0, 0.1);
+  
+    padding: 20px;
+  
+    border-radius: 10px;
+  }
+  
+  /* styling file input */
+  
+  label.label input[type="file"] {
+    position: absolute;
+  
+    top: -1000px;
+  }
+  
+  .label {
+    cursor: pointer;
+  
+    border: 1px solid #cccccc;
+  
+    border-radius: 5px;
+  
+    padding: 5px 15px;
+  
+    margin: 5px;
+  
+    background: #dddddd;
+  
+    display: inline-block;
+  }
+  
+  .label:hover {
+    background: #00b7e6;
+  }
+  
+  .label:active {
+    background: #9fa1a0;
+  }
+  
+  .label:invalid + span {
+    color: #000000;
+  }
+  
+  .label:valid + span {
+    color: #ffffff;
+  }
+  
+  /* styling preview image */
+  
+  img {
+    margin: 20px auto 10px auto;
+  
+    border-radius: 8px;
+  
+    max-width: 100%;
+  }
+  

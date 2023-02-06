@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+#profile-file{
+    visibility: hidden;
+    position: absolute;
+}
+#image-profile{
+    width: 76%;
+    border-radius: 53px;
+}
+#div-profile{
+    width: 20%;
+    text-align: center;
+}
+#box-image{
+    width: 20%;
+}
+#button-profile{
+    width: 55%;
+    background: aqua;
+    border-radius: 42px;
+    height: 44px;
+    font-size: 127%;
+    font-weight: bold;
+}
